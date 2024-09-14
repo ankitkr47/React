@@ -1,7 +1,6 @@
 {
-  "name": "2-igniting_our_app",
+  "name": "5-lets_get_hooked",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "parcel index.html",
@@ -18,5 +17,6 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "description": ""
 }

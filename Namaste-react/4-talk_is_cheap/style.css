@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin:0;
+    /* overflow: hidden; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    border: 0.5px solid black;
+}
+
+.logo > img{
+    width:100px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav-icons > ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-icons > ul > li {
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.cart > button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* -----------------hero section */
+
+.hero-section{
+    padding : 20px;
+}
+
+.card-sections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-self: left;
+    justify-content: flex-start;
+
+
+}
+
+.card-container{
+    width:18%;
+    /* height:230px; */
+    border: 0.5px solid #F0F0F0;
+    background-color: #F0F0F0;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.card-image > img{
+    width:150px;
+    height:140px;
+}
