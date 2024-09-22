@@ -36,6 +36,7 @@
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
+    margin: 10px;
 }
 
 /* -----------------hero section */
@@ -68,4 +69,44 @@
 .card-image > img{
     width:150px;
     height:140px;
+}
+
+.shimer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-self: left;
+    justify-content: flex-start;
+}
+
+.shimmer-card{
+    width:18%;
+    height:230px;
+    border: 0.5px solid #F0F0F0;
+    background-color: #F0F0F0;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.shimmer-search{
+    width: 200px;
+    height: 20px;
+    background-color: #F0F0F0;
+
+}
+
+.shimmer-search-btn{
+    width: 50px;
+    height:20px;
+    background-color: #f0f0f0f0;
+}
+
+.search{
+    display: flex;
+}
+.hero-section-1{
+    display: flex;
+    gap: 20px;
+    margin-bottom:15px;
 }
